@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #181d1f;
+}
+
+.grid-header {
+  height: 48px;
+  line-height: 48px;
+
+  background: #222628;
+  color: #fff;
+  border: 1px solid #68686e;
+  border-bottom: unset;
+
+  font-weight: bold;
+  text-align: center;
+}
+
+.ag-theme-alpine-dark {
+  margin: 10px;
+  margin-bottom: 64px;
+}
+
+.right {
+  text-align: right;
+}
+
+.status-panel {
+  height: 32px;
+  line-height: 32px;
+
+  background: #222628;
+  color: #fff;
+  border: 1px solid #68686e;
+  border-top: unset;
+
+  font-weight: bold;
+  text-align: left;
+  padding: 0 8px;
+}
